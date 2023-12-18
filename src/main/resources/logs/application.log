@@ -5,3 +5,17 @@
 13834 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
 9529 [JettyServerThreadPool-39] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
 39301 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
+18144 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+20588 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+31660 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/%7B2%7D 200 Invalid token
+5896 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+9047 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+4368 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+6528 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+11472 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+46038 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+46138 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+286590 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+286839 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+303988 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+305210 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
