@@ -1,0 +1,7 @@
+1642438 [JettyServerThreadPool-54] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+1643147 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+1643316 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+1643540 [JettyServerThreadPool-54] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+13834 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
+9529 [JettyServerThreadPool-39] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
+39301 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 org.hibernate.query.sqm.UnknownEntityException: Could not resolve root entity 'Hotel'
