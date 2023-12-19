@@ -14,7 +14,7 @@ public class Populate {
 
         try (var em = emf.createEntityManager()) {
             em.getTransaction().begin();
-            Recipe ProteinOatmeal = new Recipe("Protein Oatmeal", "https://i.imgur.com/5Z9X9ZM.jpg", Recipe.RecipeType.BREAKFAST, "A delicious and healthy breakfast", 10, "1/2 cup oats, 1 cup milk, 1 scoop protein powder, 1/2 cup berries", "1. Mix oats and milk in a bowl\n2. Microwave for 2 minutes\n3. Add protein powder and berries");
+            Recipe ProteinOatmeal = new Recipe("Protein Oatmeal", "https://i.imgur.com/VJFSqB7.jpeg", Recipe.RecipeType.BREAKFAST, "A delicious and healthy breakfast", 10, "1/2 cup oats, 1 cup milk, 1 scoop protein powder, 1/2 cup berries", "1. Mix oats and milk in a bowl\n2. Microwave for 2 minutes\n3. Add protein powder and berries");
 
             Recipe ProteinPizza = new Recipe("Protein Pizza", "https://i.imgur.com/5Z9X9ZM.jpg", Recipe.RecipeType.DINNER, "A delicious and healthy dinner", 30, "1/2 cup oats, 1 cup milk, 1 scoop protein powder, 1/2 cup berries", "1. Mix oats and milk in a bowl\n2. Microwave for 2 minutes\n3. Add protein powder and berries");
 
