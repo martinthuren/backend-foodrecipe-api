@@ -19,3 +19,35 @@
 286839 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
 303988 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
 305210 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+35725 [JettyServerThreadPool-36] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+39655 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+39969 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/10 200 Invalid token
+116424 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+117676 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+119490 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+119816 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+124378 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+124834 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+125035 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+125253 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+126342 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+126610 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+127520 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+127714 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+127917 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+128118 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+128319 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+128537 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+129555 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+129749 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+130835 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+131065 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+134387 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+134703 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+230841 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/10 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+283446 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/10 200 Invalid token
+284205 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+356569 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+359259 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/4 200 Invalid token
+361620 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+362387 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/19 200 Invalid token

@@ -51,3 +51,4 @@
 359259 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/4 200 Invalid token
 361620 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
 362387 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/19 200 Invalid token
+23871 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token

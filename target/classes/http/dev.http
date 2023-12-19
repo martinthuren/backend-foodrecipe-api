@@ -5,7 +5,7 @@ Authorization: Bearer {{token}}
 
 ###
 
-GET {{url}}/hotels/2
+GET http://localhost:7070/api/v1/recipes/10
 Authorization: Bearer {{token}}
 
 ###
