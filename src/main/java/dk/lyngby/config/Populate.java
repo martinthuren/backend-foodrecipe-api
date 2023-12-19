@@ -16,7 +16,7 @@ public class Populate {
             em.getTransaction().begin();
             Recipe ProteinOatmeal = new Recipe(
                     "Protein Oatmeal",
-                    "https://i.imgur.com/VJFSqB7.jpeg",
+                    "https://i.imgur.com/rE2HvUH.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "A delicious and healthy breakfast",
                     10,
@@ -26,7 +26,7 @@ public class Populate {
 
             Recipe ProteinPizza = new Recipe(
                     "Protein Pizza",
-                    "https://i.imgur.com/5Z9X9ZM.jpg",
+                    "https://i.imgur.com/BgFv23l.jpg",
                     Recipe.RecipeType.DINNER,
                     "A delicious and healthy dinner",
                     30,
@@ -36,7 +36,7 @@ public class Populate {
 
             Recipe VeggieStirFry = new Recipe(
                     "Veggie Stir-Fry",
-                    "https://i.imgur.com/abc123.jpg",
+                    "https://i.imgur.com/Vs4kvN6.jpg",
                     Recipe.RecipeType.DINNER,
                     "A flavorful vegetarian dinner",
                     25,
@@ -46,7 +46,7 @@ public class Populate {
 
             Recipe FruitSalad = new Recipe(
                     "Fruit Salad",
-                    "https://i.imgur.com/def456.jpg",
+                    "https://i.imgur.com/Li12hJN.jpg",
                     Recipe.RecipeType.SNACK,
                     "A refreshing and healthy snack",
                     15,
@@ -56,7 +56,7 @@ public class Populate {
 
             Recipe ChickenQuinoaBowl = new Recipe(
                     "Chicken Quinoa Bowl",
-                    "https://i.imgur.com/ghi789.jpg",
+                    "https://i.imgur.com/3xTqcKa.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A protein-packed lunch option",
                     35,
@@ -66,7 +66,7 @@ public class Populate {
 
             Recipe AvocadoToast = new Recipe(
                     "Avocado Toast",
-                    "https://i.imgur.com/jkl012.jpg",
+                    "https://i.imgur.com/Aa6xYHy.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "A trendy and nutritious breakfast",
                     15,
@@ -76,7 +76,7 @@ public class Populate {
 
             Recipe LentilSoup = new Recipe(
                     "Lentil Soup",
-                    "https://i.imgur.com/mno345.jpg",
+                    "https://i.imgur.com/asol2Yu.jpg",
                     Recipe.RecipeType.DINNER,
                     "A hearty and comforting soup",
                     40,
@@ -86,7 +86,7 @@ public class Populate {
 
             Recipe TofuScramble = new Recipe(
                     "Tofu Scramble",
-                    "https://i.imgur.com/pqr678.jpg",
+                    "https://i.imgur.com/mdUM742.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "A vegan alternative to scrambled eggs",
                     20,
@@ -96,7 +96,7 @@ public class Populate {
 
             Recipe YogurtParfait = new Recipe(
                     "Greek Yogurt Parfait",
-                    "https://i.imgur.com/stu901.jpg",
+                    "https://i.imgur.com/IE4QxQ3.jpg",
                     Recipe.RecipeType.SNACK,
                     "A healthy and customizable snack",
                     10,
@@ -106,7 +106,7 @@ public class Populate {
 
             Recipe TurkeyVeggieWrap = new Recipe(
                     "Turkey Veggie Wrap",
-                    "https://i.imgur.com/vwx234.jpg",
+                    "https://i.imgur.com/jko93Dp.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A quick and nutritious lunch option",
                     15,
@@ -116,7 +116,7 @@ public class Populate {
 
             Recipe SmoothieBowl = new Recipe(
                     "Smoothie Bowl",
-                    "https://i.imgur.com/yzabc5.jpg",
+                    "https://i.imgur.com/n3nWFY4.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "A vibrant and energizing breakfast",
                     10,
@@ -126,7 +126,7 @@ public class Populate {
 
             Recipe ShrimpBroccoliStirFry = new Recipe(
                     "Shrimp Broccoli Stir-Fry",
-                    "https://i.imgur.com/678def.jpg",
+                    "https://i.imgur.com/aFyRD6q.jpg",
                     Recipe.RecipeType.DINNER,
                     "A flavorful seafood dinner",
                     20,
@@ -136,7 +136,7 @@ public class Populate {
 
             Recipe QuinoaSalad = new Recipe(
                     "Quinoa Salad",
-                    "https://i.imgur.com/901ghi.jpg",
+                    "https://i.imgur.com/ZGrAUGk.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A refreshing and protein-rich salad",
                     25,
@@ -146,7 +146,7 @@ public class Populate {
 
             Recipe BlueberryPancakes = new Recipe(
                     "Blueberry Pancakes",
-                    "https://i.imgur.com/234jkl.jpg",
+                    "https://i.imgur.com/4vtbitl.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "Delicious fluffy pancakes with a burst of blueberries",
                     20,
@@ -156,7 +156,7 @@ public class Populate {
 
             Recipe GrilledVeggieSandwich = new Recipe(
                     "Grilled Vegetable Sandwich",
-                    "https://i.imgur.com/567mno.jpg",
+                    "https://i.imgur.com/rq6i3ug.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A hearty sandwich filled with grilled veggies",
                     25,
@@ -166,7 +166,7 @@ public class Populate {
 
             Recipe BakedSalmonRoastedVeggies = new Recipe(
                     "Baked Salmon with Roasted Vegetables",
-                    "https://i.imgur.com/opq789.jpg",
+                    "https://i.imgur.com/8kyvy5H.jpg",
                     Recipe.RecipeType.DINNER,
                     "A nutritious and flavorful dinner option",
                     35,
@@ -176,7 +176,7 @@ public class Populate {
 
             Recipe BananaNutOvernightOats = new Recipe(
                     "Banana Nut Overnight Oats",
-                    "https://i.imgur.com/rst012.jpg",
+                    "https://i.imgur.com/TiIZ5pc.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "Prepare ahead for a quick morning meal",
                     10,
@@ -186,7 +186,7 @@ public class Populate {
 
             Recipe ChickpeaSalad = new Recipe(
                     "Chickpea Salad",
-                    "https://i.imgur.com/uvw345.jpg",
+                    "https://i.imgur.com/tbMGbCo.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A protein-packed and refreshing salad",
                     20,
@@ -196,7 +196,7 @@ public class Populate {
 
             Recipe EggplantParmesan = new Recipe(
                     "Eggplant Parmesan",
-                    "https://i.imgur.com/xyz678.jpg",
+                    "https://i.imgur.com/9zUv5xQ.jpg",
                     Recipe.RecipeType.DINNER,
                     "A satisfying vegetarian Italian dish",
                     50,
@@ -206,7 +206,7 @@ public class Populate {
 
             Recipe GreenSmoothie = new Recipe(
                     "Green Smoothie",
-                    "https://i.imgur.com/123abc.jpg",
+                    "https://i.imgur.com/EU0GoRT.jpg",
                     Recipe.RecipeType.SNACK,
                     "A nutritious and refreshing drink",
                     10,
@@ -216,7 +216,7 @@ public class Populate {
 
             Recipe TunaSaladWrap = new Recipe(
                     "Tuna Salad Wrap",
-                    "https://i.imgur.com/456def.jpg",
+                    "https://i.imgur.com/bt5oYrb.jpg",
                     Recipe.RecipeType.LUNCH,
                     "A simple and protein-rich lunch option",
                     15,
@@ -226,7 +226,7 @@ public class Populate {
 
             Recipe VeggieFrittata = new Recipe(
                     "Veggie Frittata",
-                    "https://i.imgur.com/789ghi.jpg",
+                    "https://i.imgur.com/CfZwPNK.jpg",
                     Recipe.RecipeType.BREAKFAST,
                     "A versatile and satisfying breakfast dish",
                     30,
