@@ -62,3 +62,8 @@
 25355 [JettyServerThreadPool-36] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
 45339 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/register 200 Username already exists
 6737 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/register 200 Username already exists
+14705 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+15855 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+16040 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+17675 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+43618 [JettyServerThreadPool-36] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
