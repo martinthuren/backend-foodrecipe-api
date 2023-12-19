@@ -11,7 +11,7 @@ Content-Type: application/json
 > {% client.global.set("token", response.body.json.token); %}
 
 ### Register user/user
-POST {{url}}/auth/register
+POST localhost:7070/api/v1/auth/register
 Content-Type: application/json
 
 {
@@ -21,7 +21,7 @@ Content-Type: application/json
 }
 
 ### Register user_manager/manager
-POST {{url}}/auth/register
+POST localhost:7070/api/v1/auth/register
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 > {% client.global.set("token", response.body.token); %}
 
 ### Login as admin
-POST {{url}}/auth/login
+POST localhost:7070/api/v1/auth/login
 Content-Type: application/json
 
 {
@@ -44,7 +44,7 @@ Content-Type: application/json
 > {% client.global.set("token", response.body.token); %}
 
 ### Login as user
-POST {{url}}/auth/login
+POST localhost:7070/api/v1/auth/login
 Content-Type: application/json
 
 {
@@ -55,7 +55,7 @@ Content-Type: application/json
 
 
 ### Login as manager
-POST {{url}}/auth/login
+POST localhost:7070/api/v1/auth/login
 Content-Type: application/json
 
 {

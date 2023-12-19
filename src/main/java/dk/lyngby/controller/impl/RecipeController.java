@@ -46,7 +46,7 @@ public class RecipeController implements IController<Recipe, Integer> {
     @Override
     public void create(Context ctx) {
         // request
-        //Hotel jsonRequest = validateEntity(ctx);
+        //Recipe jsonRequest = validateEntity(ctx);
         Recipe jsonRequest = ctx.bodyAsClass(Recipe.class);
         // entity
         Recipe recipe = dao.create(jsonRequest);

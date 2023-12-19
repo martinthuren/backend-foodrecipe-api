@@ -47,9 +47,9 @@ public class RecipeDto {
     public boolean equals(Object o)
     {
         if (this == o) return true;
-        if (!(o instanceof RecipeDto hotelDto)) return false;
+        if (!(o instanceof RecipeDto recipeDto)) return false;
 
-        return getId().equals(hotelDto.getId());
+        return getId().equals(recipeDto.getId());
     }
 
     @Override

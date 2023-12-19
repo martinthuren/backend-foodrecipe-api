@@ -52,3 +52,10 @@
 361620 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
 362387 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/19 200 Invalid token
 23871 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+42252545 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - PUT /api/v1/recipes/200 200 {
+  "hotelName": "Scandic",
+  "hotelAddress": "Lyngby Hovedgade",
+  "hotelType": "BUDGET"
+}
+42368854 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/2 200 Invalid token
+42412798 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/24 200 
