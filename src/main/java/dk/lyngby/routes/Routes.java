@@ -19,7 +19,6 @@ public class Routes {
     private int count = 0;
 
     private final RecipeRoute recipeRoute = new RecipeRoute();
-    private final UserRoutes userRoutes = new UserRoutes();
 
     private final Logger LOGGER = LoggerFactory.getLogger(Routes.class);
 
@@ -33,7 +32,6 @@ public class Routes {
             app.before(this::requestInfoHandler);
 
             app.routes(() -> {
-                path("/", userRoutes.getRoutes());
                 path("/", recipeRoute.getRoutes());
             });
 
