@@ -49,18 +49,34 @@ public class RecipeDao implements dk.lyngby.dao.IDao<Recipe, Integer> {
     }
 
     @Override
-    public Recipe update(Integer integer, Recipe recipe) {
-        try(var em = emf.createEntityManager()) {
+    public Recipe update(Integer id, Recipe updatedRecipe) {
+        try (var em = emf.createEntityManager()) {
             em.getTransaction().begin();
 
-            var h = em.find(Recipe.class, integer);
-            h.setRecipeName(recipe.getRecipeName());
-            h.setRecipeType(recipe.getRecipeType());
-            Recipe merge = em.merge(h);
-            em.getTransaction().commit();
-            return merge;
+            Recipe existingRecipe = em.find(Recipe.class, id);
+
+            if (existingRecipe != null) {
+                existingRecipe.setRecipeName(updatedRecipe.getRecipeName());
+                existingRecipe.setRecipeImg(updatedRecipe.getRecipeImg());
+                existingRecipe.setRecipeDescription(updatedRecipe.getRecipeDescription());
+                existingRecipe.setRecipeType(updatedRecipe.getRecipeType());
+                existingRecipe.setRecipePreptime(updatedRecipe.getRecipePreptime());
+                existingRecipe.setRecipeIngredients(updatedRecipe.getRecipeIngredients());
+                existingRecipe.setRecipeDirections(updatedRecipe.getRecipeDirections());
+
+                Recipe mergedRecipe = em.merge(existingRecipe);
+
+                em.getTransaction().commit();
+                return mergedRecipe;
+            } else {
+                return null;
+            }
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            throw new RuntimeException("Error updating recipe: " + ex.getMessage());
         }
     }
+
 
     @Override
     public void delete(Integer integer) {

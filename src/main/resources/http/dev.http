@@ -26,7 +26,7 @@ Authorization: Bearer {{token}}
 
 ###
 
-PUT localhost:7070/api/v1/recipes/24
+PUT localhost:7070/api/v1/recipes/174
 Content-Type: application/json
 Authorization: Bearer {{token}}
 

@@ -352,6 +352,60 @@ public class Populate {
                             "Stir gently and garnish with mint leaves and a watermelon cube."
             );
 
+            Recipe chocolateCake = new Recipe(
+                    "Chocolate Cake",
+                    "https://i.imgur.com/QnADiI9.jpg",
+                    Recipe.RecipeType.DESSERT,
+                    "Indulge in the rich flavor of chocolate with this decadent cake.",
+                    60,
+                    "2 cups all-purpose flour, 1 cup cocoa powder, 1 ½ cups sugar, 2 tsp baking powder, " +
+                            "1 tsp baking soda, ½ tsp salt, 1 cup milk, ½ cup vegetable oil, 2 eggs, 2 tsp vanilla extract, " +
+                            "1 cup boiling water, chocolate frosting",
+                    "1. Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans.\n" +
+                            "2. In a large bowl, mix flour, cocoa powder, sugar, baking powder, baking soda, and salt.\n" +
+                            "3. Add milk, vegetable oil, eggs, and vanilla extract. Mix until well combined."
+            );
+
+            Recipe strawberryCake = new Recipe(
+                    "Strawberry Cheesecake",
+                    "https://i.imgur.com/ftirewH.jpg",
+                    Recipe.RecipeType.DESSERT,
+                    "Enjoy the creamy goodness of cheesecake topped with fresh strawberries.",
+                    240,
+                    "1 ½ cups graham cracker crumbs, ¼ cup sugar, ⅓ cup melted butter, " +
+                            "4 (8-ounce) packages cream cheese, 1 ¼ cups sugar, 2 tsp vanilla extract, " +
+                            "4 eggs, ⅓ cup sour cream, ⅓ cup heavy cream, sliced strawberries",
+                    "1. Preheat oven to 325°F (160°C). Grease a 9-inch springform pan.\n" +
+                            "2. Mix graham cracker crumbs, sugar, and melted butter. Press onto the bottom of the prepared pan.\n" +
+                            "3. In a large bowl, beat cream cheese, sugar, and vanilla extract until smooth."
+            );
+
+            Recipe applePie = new Recipe(
+                    "Apple Pie",
+                    "https://i.imgur.com/Q7RyUpV.jpg",
+                    Recipe.RecipeType.DESSERT,
+                    "Savor the classic taste of homemade apple pie with a buttery crust and cinnamon-spiced apples.",
+                    90,
+                    "For the crust: 2 ½ cups all-purpose flour, 1 cup unsalted butter (cold), " +
+                            "1 tsp salt, 1 tsp sugar, 6-8 tbsp ice water. For the filling: 6 cups thinly sliced apples",
+                    "1. Prepare the crust: In a food processor, pulse flour, salt, and sugar. Add cold butter and pulse " +
+                            "until the mixture resembles coarse crumbs. Slowly add ice water and pulse until the dough comes together."
+            );
+
+            Recipe tiramisu = new Recipe(
+                    "Tiramisu",
+                    "https://i.imgur.com/fZDXLkw.jpg",
+                    Recipe.RecipeType.DESSERT,
+                    "Delight in this classic Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cream.",
+                    45,
+                    "6 egg yolks, ¾ cup granulated sugar, 1 cup mascarpone cheese, 1 ½ cups heavy cream, " +
+                            "2 cups strong brewed coffee, 1 package ladyfinger cookies, cocoa powder for dusting",
+                    "1. In a heatproof bowl, whisk egg yolks and sugar over a pot of simmering water until thickened.\n" +
+                            "2. Remove from heat and whisk in mascarpone until smooth."
+            );
+
+
+
 
             em.persist(ProteinOatmeal);
             em.persist(ProteinPizza);
@@ -385,6 +439,10 @@ public class Populate {
             em.persist(pineapplePunch);
             em.persist(strawberryDaiquiri);
             em.persist(watermelonMintCooler);
+            em.persist(chocolateCake);
+            em.persist(strawberryCake);
+            em.persist(applePie);
+            em.persist(tiramisu);
 
             em.getTransaction().commit();
         }
