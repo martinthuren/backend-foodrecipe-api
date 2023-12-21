@@ -67,3 +67,9 @@
 16040 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
 17675 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
 43618 [JettyServerThreadPool-36] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+41001975 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/33 200 
+41004447 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/33 200 
+57854 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/1 200 
+58053 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/1 200 
+192042 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - DELETE /api/v1/recipes/3 200 
+227157 [JettyServerThreadPool-36] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/17 200 

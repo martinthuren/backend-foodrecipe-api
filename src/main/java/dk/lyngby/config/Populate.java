@@ -234,6 +234,125 @@ public class Populate {
                     "Whisk eggs in a bowl\nSauté veggies in a pan\nPour eggs over veggies, sprinkle cheese and herbs\nBake until set"
             );
 
+            Recipe CaramelBliss = new Recipe(
+                    "Caramel Bliss",
+                    "https://i.imgur.com/AB3rTgQ.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "Indulge in the sweet and rich flavors of caramel with this blissful cocktail.",
+                    5,
+                    "2 oz caramel liqueur, 1 oz vanilla vodka, 1 oz cream, caramel drizzle, ice cubes",
+                    "In a shaker, combine caramel liqueur, vanilla vodka, and cream with ice.\n" +
+                            "Shake well and strain into a glass filled with ice.\n" +
+                            "Drizzle caramel on top for an extra touch of sweetness."
+            );
+
+            Recipe coffeeMartini = new Recipe(
+                    "Coffee Martini",
+                    "https://i.imgur.com/GzkKpcy.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A classic martini with a coffee twist, perfect for coffee lovers and cocktail enthusiasts.",
+                    5,
+                    "2 oz coffee liqueur, 1 oz vodka, 1/2 oz simple syrup, coffee beans, ice cubes",
+                    "In a shaker, mix coffee liqueur, vodka, and simple syrup with ice.\n" +
+                            "Shake well and strain into a chilled martini glass.\n" +
+                            "Garnish with a few coffee beans."
+            );
+
+            Recipe lemonDropFizz = new Recipe(
+                    "Lemon Drop Fizz",
+                    "https://i.imgur.com/mjoHlXD.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A sparkling and zesty concoction that combines the brightness of lemon with fizzy delight.",
+                    5,
+                    "2 oz lemon vodka, 1 oz triple sec, 1 oz lemon juice, soda water, lemon twist, ice cubes",
+                    "In a glass, mix lemon vodka, triple sec, and lemon juice with ice.\n" +
+                            "Top with soda water and stir gently.\n" +
+                            "Garnish with a twist of lemon."
+            );
+
+            Recipe lycheeSparkler = new Recipe(
+                    "Lychee Sparkler",
+                    "https://i.imgur.com/nHx1MK4.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "Experience the exotic and floral notes of lychee in this refreshing sparkling drink.",
+                    5,
+                    "2 oz lychee liqueur, 1 oz vodka, 1 oz elderflower liqueur, lychee fruit, ice cubes",
+                    "In a shaker, combine lychee liqueur, vodka, and elderflower liqueur with ice.\n" +
+                            "Shake well and strain into a glass filled with ice.\n" +
+                            "Garnish with a lychee fruit."
+            );
+
+            Recipe limeMargarita = new Recipe(
+                    "Lime Margarita",
+                    "https://i.imgur.com/fHfNmPK.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A tangy and refreshing margarita that highlights the citrusy goodness of lime.",
+                    5,
+                    "2 oz silver tequila, 1 oz triple sec, 1 oz fresh lime juice, salt for rimming, lime wedge, ice cubes",
+                    "Rim a glass with salt.\n" +
+                            "In a shaker, mix tequila, triple sec, and lime juice with ice.\n" +
+                            "Strain into the prepared glass and garnish with a lime wedge."
+            );
+
+            Recipe orangeDream = new Recipe(
+                    "Orange Dream",
+                    "https://i.imgur.com/yhOUJcF.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A dreamy and citrusy cocktail featuring the vibrant flavors of orange.",
+                    5,
+                    "2 oz orange vodka, 1 oz triple sec, 1 oz cream, orange twist, ice cubes",
+                    "In a shaker, combine orange vodka, triple sec, and cream with ice.\n" +
+                            "Shake well and strain into a glass filled with ice.\n" +
+                            "Garnish with an orange twist."
+            );
+
+            Recipe passionfruitParadise = new Recipe(
+                    "Passionfruit Paradise",
+                    "https://i.imgur.com/jM4O6fp.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "Immerse yourself in the tropical paradise with the intense and fruity flavor of passionfruit.",
+                    5,
+                    "2 oz passionfruit juice, 1 oz white rum, 1 oz coconut cream, passionfruit seeds, ice cubes",
+                    "In a blender, mix passionfruit juice, white rum, and coconut cream with ice.\n" +
+                            "Blend until smooth and pour into a glass.\n" +
+                            "Garnish with passionfruit seeds."
+            );
+
+            Recipe pineapplePunch = new Recipe(
+                    "Pineapple Punch",
+                    "https://i.imgur.com/z99K3Aa.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A punchy and tropical drink that captures the essence of ripe pineapple.",
+                    5,
+                    "2 oz pineapple juice, 1 oz dark rum, 1 oz coconut water, pineapple wedge, ice cubes",
+                    "In a glass, mix pineapple juice, dark rum, and coconut water with ice.\n" +
+                            "Stir gently and garnish with a pineapple wedge."
+            );
+
+            Recipe strawberryDaiquiri = new Recipe(
+                    "Strawberry Daiquiri",
+                    "https://i.imgur.com/WHDcHdI.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "A classic daiquiri with a burst of fresh strawberry sweetness for a delightful twist.",
+                    5,
+                    "2 oz white rum, 1 oz strawberry puree, 1 oz simple syrup, strawberry slice, ice cubes",
+                    "In a shaker, combine white rum, strawberry puree, and simple syrup with ice.\n" +
+                            "Shake well and strain into a glass filled with ice.\n" +
+                            "Garnish with a strawberry slice."
+            );
+
+            Recipe watermelonMintCooler = new Recipe(
+                    "Watermelon Mint Cooler",
+                    "https://i.imgur.com/qIf8eG5.jpg",
+                    Recipe.RecipeType.DRINK,
+                    "Stay cool with this refreshing drink featuring the juicy goodness of watermelon and the freshness of mint.",
+                    5,
+                    "2 oz watermelon juice, 1 oz vodka, 1 oz mint syrup, mint leaves, watermelon cube, ice cubes",
+                    "In a glass, mix watermelon juice, vodka, and mint syrup with ice.\n" +
+                            "Stir gently and garnish with mint leaves and a watermelon cube."
+            );
+
+
             em.persist(ProteinOatmeal);
             em.persist(ProteinPizza);
             em.persist(VeggieStirFry);
@@ -256,6 +375,16 @@ public class Populate {
             em.persist(GreenSmoothie);
             em.persist(TunaSaladWrap);
             em.persist(VeggieFrittata);
+            em.persist(CaramelBliss);
+            em.persist(coffeeMartini);
+            em.persist(lemonDropFizz);
+            em.persist(lycheeSparkler);
+            em.persist(limeMargarita);
+            em.persist(orangeDream);
+            em.persist(passionfruitParadise);
+            em.persist(pineapplePunch);
+            em.persist(strawberryDaiquiri);
+            em.persist(watermelonMintCooler);
 
             em.getTransaction().commit();
         }
