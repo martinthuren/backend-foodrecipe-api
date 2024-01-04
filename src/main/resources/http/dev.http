@@ -26,7 +26,7 @@ Authorization: Bearer {{token}}
 
 ###
 
-PUT localhost:7070/api/v1/recipes/174
+PUT localhost:7070/api/v1/recipes/37
 Content-Type: application/json
 Authorization: Bearer {{token}}
 
@@ -42,5 +42,5 @@ Authorization: Bearer {{token}}
 
 ###
 
-DELETE localhost:7070/api/v1/recipes/24
+DELETE localhost:7070/api/v1/recipes/37
 Authorization: Bearer {{token}}

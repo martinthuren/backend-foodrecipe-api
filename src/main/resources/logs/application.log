@@ -86,3 +86,12 @@
   "recipeDirections": "1. Spread hummus on wrap\n2. Layer turkey slices and veggies\n3. Roll up the wrap"
 }
 9686 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 
+436879 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - PUT /api/v1/recipes/174 200 {
+  "recipeName": "Example Veggie Dish Updated",
+  "recipeImg": "https://i.imgur.com/vwx234.jpg",
+  "recipeDescription": "A quick and nutritious example option",
+  "recipeType": "LUNCH",
+  "recipePreptime": 15,
+  "recipeIngredients": "4 slices turkey, 1 whole grain wrap, lettuce, tomato, cucumber, hummus",
+  "recipeDirections": "1. Spread hummus on wrap\n2. Layer turkey slices and veggies\n3. Roll up the wrap"
+}
