@@ -85,3 +85,4 @@
   "recipeIngredients": "4 slices turkey, 1 whole grain wrap, lettuce, tomato, cucumber, hummus",
   "recipeDirections": "1. Spread hummus on wrap\n2. Layer turkey slices and veggies\n3. Roll up the wrap"
 }
+9686 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 
