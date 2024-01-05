@@ -19,6 +19,7 @@ public class Routes {
     private int count = 0;
 
     private final RecipeRoute recipeRoute = new RecipeRoute();
+    private final UserRoutes userRoutes = new UserRoutes();
 
     private final Logger LOGGER = LoggerFactory.getLogger(Routes.class);
 
@@ -33,6 +34,7 @@ public class Routes {
 
             app.routes(() -> {
                 path("/", recipeRoute.getRoutes());
+                path("/", userRoutes.getRoutes());
             });
 
             app.after(ctx -> LOGGER.info(" Request {} - {} was handled with status code {}", count++, ctx.attribute("requestInfo"), ctx.status()));

@@ -1,6 +1,8 @@
 package dk.lyngby.config;
 
 import dk.lyngby.model.Recipe;
+import dk.lyngby.model.Role;
+import dk.lyngby.model.User;
 import jakarta.persistence.EntityManagerFactory;
 import lombok.NoArgsConstructor;
 import org.hibernate.SessionFactory;
@@ -95,6 +97,8 @@ public class HibernateConfig {
 
     private static void getAnnotationConfiguration(Configuration configuration) {
         configuration.addAnnotatedClass(Recipe.class);
+        configuration.addAnnotatedClass(User.class);
+        configuration.addAnnotatedClass(Role.class);
     }
 
     private static EntityManagerFactory getEntityManagerFactoryConfigDev() {
