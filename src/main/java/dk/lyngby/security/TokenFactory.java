@@ -1,22 +1,22 @@
 package dk.lyngby.security;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nimbusds.jose.JOSEException;
-import com.nimbusds.jwt.JWTClaimsSet;
-import com.nimbusds.jwt.SignedJWT;
-import dk.lyngby.config.ApplicationConfig;
-import dk.lyngby.dto.UserDTO;
-import dk.lyngby.exception.ApiException;
-import dk.lyngby.exception.AuthorizationException;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+        import com.fasterxml.jackson.core.JsonProcessingException;
+        import com.fasterxml.jackson.databind.ObjectMapper;
+        import com.nimbusds.jose.JOSEException;
+        import com.nimbusds.jwt.JWTClaimsSet;
+        import com.nimbusds.jwt.SignedJWT;
+        import dk.lyngby.config.ApplicationConfig;
+        import dk.lyngby.dto.UserDTO;
+        import dk.lyngby.exception.ApiException;
+        import dk.lyngby.exception.AuthorizationException;
+        import lombok.AccessLevel;
+        import lombok.NoArgsConstructor;
+        import org.slf4j.Logger;
+        import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
-import java.text.ParseException;
-import java.util.*;
+        import java.io.IOException;
+        import java.text.ParseException;
+        import java.util.*;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class TokenFactory {
