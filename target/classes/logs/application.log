@@ -141,3 +141,48 @@
 1405719 [JettyServerThreadPool-39] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
 1405731 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
 2640938 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+10648 [JettyServerThreadPool-39] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes/1 200 Invalid token
+13127 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+13315 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+19013 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+19023 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+29280 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - POST /api/v1/auth/login 200 Invalid user name or password
+111619 [JettyServerThreadPool-43] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+111700 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+265094 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+265102 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+461369 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+461374 [JettyServerThreadPool-37] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+464855 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+464863 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+469215 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1405022 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1405053 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1409602 [JettyServerThreadPool-51] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1594926 [JettyServerThreadPool-56] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+1595955 [JettyServerThreadPool-56] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1641016 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+1756911 [JettyServerThreadPool-51] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+30942 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Token is expired
+31223 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Token is expired
+70266 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+110346 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+118143 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+710458 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+711971 [JettyServerThreadPool-39] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+853066 [JettyServerThreadPool-41] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+853241 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid token
+1169045 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+1170745 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+1891400 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+1893062 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2031269 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+2033307 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2212749 [JettyServerThreadPool-55] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2216651 [JettyServerThreadPool-38] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+2217773 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2379749 [JettyServerThreadPool-48] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2394451 [JettyServerThreadPool-52] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+2401813 [JettyServerThreadPool-42] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
+2499872 [JettyServerThreadPool-49] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 Invalid serialized unsecured/JWS/JWE object: Missing part delimiters
+2508647 [JettyServerThreadPool-55] ERROR dk.lyngby.routes.Routes - GET /api/v1/recipes 200 You are not authorized to perform this action
